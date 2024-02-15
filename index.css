@@ -1,0 +1,62 @@
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+body {
+  background-color: orangered;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
+
+.cellContainer > div {
+  background-color: blue;
+  color: #ffff;
+}
+
+#gameContainer {
+  font-family: "Parmanent Maker", cursive;
+  text-align: center;
+}
+
+.cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  max-width: 225px;
+  margin: auto;
+  color: black;
+}
+
+.ill > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#restartBtn {
+  margin: 5px solid blue;
+  background-color: red;
+  color: #ffff;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#restartBtn:hover {
+  background-color: orangered;
+  color: #ffff;
+  outline: 5px solid blue;
+  font-size: 30px;
+  padding: 10px;
+}
